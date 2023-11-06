@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  background-color: black;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+.icon {
+  margin-right: 30px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.link {
+  color: white;
+  margin: 0 40px;
+  cursor: pointer;
+  font-weight: 100;
+}
+
+.rightIcons {
+  margin: 0 15px;
+  cursor: pointer;
+}
