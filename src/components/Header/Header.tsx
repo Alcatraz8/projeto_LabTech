@@ -9,8 +9,9 @@ function Header() {
     <>
       <div className="container">
         <div className="content">
-          <div>
+          <div className="label">
             <GiMechanicalArm className="icon" size={30} color="White" />
+            <h6>LabTech</h6>
           </div>
           <ul className="links">
             <li className="link">Início</li>

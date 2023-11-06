@@ -10,18 +10,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 800px;
   width: 100%;
+}
+
+.label {
+  display: flex;
+  padding-right: 10px;
 }
 
 .icon {
   margin-right: 30px;
 }
 
+h6 {
+  color: white;
+  font-size: 20px;
+}
+
 .links {
   display: flex;
   flex-direction: row;
   list-style: none;
+  padding: 0 100px;
 }
 
 .link {
